@@ -103,7 +103,8 @@
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>Tremblay.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Stage|AnyCPU'">
     <DefineTrace>true</DefineTrace>
@@ -203,8 +204,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings1.Designer.vb</LastGenOutput>
     </None>
-    <None Include="Tremblay.pfx" />
-    <None Include="Tremblay2.pfx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <PropertyGroup>
